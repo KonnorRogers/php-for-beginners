@@ -1,0 +1,3 @@
+***REMOVED***
+
+echo "Hello World";
