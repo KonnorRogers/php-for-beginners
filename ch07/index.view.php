@@ -6,7 +6,10 @@
   </head>
   <body>
     <ul>
-      ***REMOVED*** foreach ($names as $name => $value) : ?>
+      ***REMOVED*** foreach ($person as $key => $feature) : ?>
+        <li>
+          <strong><?= $key; ?>: </strong><?= $feature; ?>
+        </li>
       ***REMOVED*** endforeach; ?>
     </ul>
   </body>
