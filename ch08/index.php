@@ -4,7 +4,7 @@ $task = [
   'title' => 'Renew registration',
   'due_date' => 'tomorrow',
   'assigned_to' => 'Konnor',
-  'completed' => True
+  'completed' => false
 ];
 
-
+require 'index.view.php';

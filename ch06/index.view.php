@@ -5,15 +5,15 @@
   </head>
   <body>
     <ul>
-      ***REMOVED***
+      <?php
         foreach ($names as $name) {
           echo "<li>$name</li>";
-        ***REMOVED***
+        }
       ?>
 
-      ***REMOVED*** foreach ($names as $name) : ?>
+      <?php foreach ($names as $name) : ?>
         <li><?= $name; ?></li>
-      ***REMOVED*** endforeach; ?>
+      <?php endforeach; ?>
     </ul>
   </body>
 </html>

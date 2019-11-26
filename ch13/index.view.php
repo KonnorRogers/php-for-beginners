@@ -7,9 +7,6 @@
   </head>
   <body>
     <ul>
-      <?php foreach ($tasks as $task) : ?>
-        <li><?= $task->getDescription(); ?></li>
-      <?php endforeach; ?>
     </ul>
 
   </body>

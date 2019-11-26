@@ -6,11 +6,11 @@
   </head>
   <body>
     <ul>
-      ***REMOVED*** foreach ($person as $key => $feature) : ?>
+      <?php foreach ($person as $key => $feature) : ?>
         <li>
           <strong><?= $key; ?>: </strong><?= $feature; ?>
         </li>
-      ***REMOVED*** endforeach; ?>
+      <?php endforeach; ?>
     </ul>
   </body>
 </html>

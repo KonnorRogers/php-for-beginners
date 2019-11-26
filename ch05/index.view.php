@@ -7,7 +7,7 @@
       background: #e3e3e3;
       padding: 2rem;
       text-align: center; 
-    ***REMOVED***
+    }
   </style>
   </head>
   <body>

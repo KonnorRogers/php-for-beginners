@@ -1,3 +1,3 @@
-***REMOVED***
+<?php
 
 echo "Hello World";
