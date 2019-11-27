@@ -1,5 +1,6 @@
 <?php
 
+require './task.php';
 
 try {
   $dsn = 'mysql:host=127.0.0.1;dbname=todos';
@@ -15,9 +16,6 @@ $statement = $pdo->prepare("SELECT * FROM mytodos");
 
 $statement->execute();
 
-$results = $statement->fetchAll(PDO::FETCH_OBJ);
-
-var_dump($results);
-
+$tasks = $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
 
 require 'index.view.php';
